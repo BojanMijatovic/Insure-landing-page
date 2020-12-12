@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,CAAE;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAGZ,IAAK;EACH,SAAS,EAAE,KAAK",
-"sources": ["../scss/general/_reset.scss"],
+"mappings": "AACQ,uFAA+E;ACDvF,CAAE;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAGZ,IAAK;EACH,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,mBAAmB;;ACPlC,OAAQ;EACN,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,SAAS;EAGlB,eAAQ;IACN,gBAAgB,EAAE,GAAG;EAIvB,mBAAY;IACV,UAAU,EAAE,IAAI;IAGhB,iCAAc;MACZ,eAAe,EAAE,IAAI;MACrB,OAAO,EAAE,MAAM;MACf,UAAU,EAAE,2BAA2B;MAEvC,uCAAQ;QACN,gBAAgB,EAAE,KAAK",
+"sources": ["../scss/main.scss","../scss/general/_reset.scss","../scss/components/_header.scss"],
 "names": [],
 "file": "main.css"
 }

@@ -1,9 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  font-family: 'Karla', sans-serif; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem; }
+  .header .__logo {
+    background-color: red; }
+  .header .menu-items {
+    list-style: none; }
+    .header .menu-items .__menu__item {
+      text-decoration: none;
+      padding: 0.5rem;
+      transition: background 0.3s ease-in-out; }
+      .header .menu-items .__menu__item:hover {
+        background-color: green; }
 
 /*# sourceMappingURL=main.css.map */
