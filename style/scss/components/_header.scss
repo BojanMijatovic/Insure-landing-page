@@ -2,10 +2,12 @@
 header {
   background-color: $very-light-gray;
   position: top;
+
   .logo {
     position: fixed;
     top: 1.5rem;
     left: 1rem;
+    background-color: transparent;
     .__title {
       color: $very-dark-violet;
       font-size: 1.5rem;
@@ -21,7 +23,7 @@ header {
     z-index: 10;
     display: inline;
     cursor: pointer;
-    background-color: white;
+    background-color: transparent;
 
     // bars
     .bar1,
