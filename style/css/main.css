@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  font-family: 'Karla', sans-serif; }
 
 /* overlay */
 .overlay {
@@ -14,7 +16,6 @@ html {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
   transform: translateX(-100vw); }
 
 .overlay-slide-right {
@@ -28,17 +29,47 @@ html {
 /* --- Sections --- */
 section {
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   position: relative;
   display: flex;
   justify-content: center; }
+
+header {
+  background-color: #fafafa;
+  position: top;
+  /* --- Menu Bars ------------------------------------ */ }
+  header .logo {
+    position: fixed;
+    top: 1.5rem;
+    left: 1rem; }
+    header .logo .__title {
+      color: #2b272f;
+      font-size: 1.5rem;
+      text-transform: uppercase; }
+  header .menu-bars {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    z-index: 10;
+    display: inline;
+    cursor: pointer;
+    background-color: white; }
+    header .menu-bars .bar1,
+    header .menu-bars .bar2,
+    header .menu-bars .bar3 {
+      width: 2.2rem;
+      height: 2px;
+      color: white;
+      margin: 5px 0;
+      transition: 0.4s;
+      background-color: #2b272f; }
 
 .nav,
 .nav__list {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: seagreen; }
+  background-color: white; }
   .nav .nav__list,
   .nav__list .nav__list {
     display: flex;
@@ -53,7 +84,7 @@ section {
       .nav__list .nav__list .__item a {
         position: relative;
         top: 45%;
-        color: white;
+        color: #2b272f;
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 3px;
@@ -64,26 +95,9 @@ section {
           transform: scale(1.2);
           transition: all 0.2s ease-in-out; }
 
-/* --- Menu Bars ------------------------------------ */
-.menu-bars {
-  position: fixed;
-  top: 1rem;
-  right: 2rem;
-  z-index: 10;
-  display: inline;
-  cursor: pointer; }
-  .menu-bars .bar1,
-  .menu-bars .bar2,
-  .menu-bars .bar3 {
-    width: 35px;
-    height: 2px;
-    background-color: #fff;
-    margin: 8px 0;
-    transition: 0.4s; }
-
 /* Rotate first bar */
 .change .bar1 {
-  transform: rotate(-45deg) translate(-7px, 8px); }
+  transform: rotate(-45deg) translate(-5px, 4px); }
 
 /* Fade out the second bar */
 .change .bar2 {
@@ -91,9 +105,25 @@ section {
 
 /* Rotate last bar */
 .change .bar3 {
-  transform: rotate(45deg) translate(-6px, -8px); }
+  transform: rotate(45deg) translate(-6px, -5px); }
 
-html {
-  background-color: red; }
+#work {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #work img {
+    width: 100%;
+    z-index: 12; }
+  #work .title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    font-size: 2.8rem;
+    color: #fafafa; }
+  #work .subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 5rem; }
 
 /*# sourceMappingURL=main.css.map */
