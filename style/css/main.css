@@ -8,11 +8,29 @@ html {
   font-size: 62.5%;
   font-family: 'Karla', sans-serif; }
 
+@media screen and (min-width: 1044px) {
+  #work {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center; }
+    #work .text {
+      text-align: left;
+      margin-left: 2.5rem; }
+      #work .text .title {
+        margin: 1rem 0 1.5rem; }
+      #work .text .subtitle {
+        padding: 1rem 3rem 1.5rem 0; }
+      #work .text .btn {
+        margin-top: 2rem;
+        width: 25%; } }
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1.2rem; }
+  .header .btn-menu img {
+    cursor: pointer; }
 
 #work {
   display: flex;
@@ -33,21 +51,21 @@ html {
       color: #fafafa;
       padding: 1rem 2rem 3rem;
       line-height: 1.6; }
-  #work .btn {
-    margin-bottom: 6rem;
-    padding: 0.8rem;
-    background-color: #2d2640;
-    color: #fafafa;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    outline-style: none;
-    width: 40%;
-    font-weight: 700;
-    cursor: pointer; }
-    #work .btn:hover, #work .btn:active {
-      color: #2d2640;
-      background-color: #fafafa;
-      transition: all 0.2s ease-in-out; }
+    #work .text .btn {
+      margin-bottom: 6rem;
+      padding: 0.8rem;
+      background-color: #2d2640;
+      color: #fafafa;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      outline-style: none;
+      width: 40%;
+      font-weight: 700;
+      cursor: pointer; }
+      #work .text .btn:hover, #work .text .btn:active {
+        color: #2d2640;
+        background-color: #fafafa;
+        transition: all 0.2s ease-in-out; }
 
 #blog {
   display: flex;
@@ -147,5 +165,22 @@ html {
       color: #2d2640;
       padding: 0.5rem;
       cursor: pointer; }
+
+@media screen and (min-width: 1044px) {
+  #work {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center; }
+    #work .text {
+      text-align: left;
+      margin-left: 2.5rem; }
+      #work .text .title {
+        margin: 1rem 0 1.5rem; }
+      #work .text .subtitle {
+        padding: 1rem 3rem 1.5rem 0; }
+      #work .text .btn {
+        margin-top: 2rem;
+        width: 25%; } }
 
 /*# sourceMappingURL=main.css.map */
