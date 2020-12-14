@@ -8,4 +8,77 @@ html {
   font-size: 62.5%;
   font-family: 'Karla', sans-serif; }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.2rem; }
+
+#work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+  background-color: #2d2640; }
+  #work .text {
+    text-align: center; }
+    #work .text .title {
+      font-size: 3rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #fafafa;
+      margin-top: 5rem; }
+    #work .text .subtitle {
+      font-size: 1.2rem;
+      color: #fafafa;
+      padding: 1rem 2rem 3rem;
+      line-height: 1.6; }
+  #work .btn {
+    margin-bottom: 6rem;
+    padding: 0.8rem;
+    background-color: #2d2640;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    outline-style: none;
+    width: 40%;
+    font-weight: 700;
+    cursor: pointer; }
+    #work .btn:hover, #work .btn:active {
+      color: #2d2640;
+      background-color: #fafafa;
+      transition: all 0.2s ease-in-out; }
+
+#blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #blog .title {
+    font-size: 2.8rem;
+    color: #2b272f;
+    margin-bottom: 2rem; }
+  #blog .cards-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none; }
+    #blog .cards-group .__card {
+      text-align: center;
+      padding: 1.5rem; }
+      #blog .cards-group .__card i {
+        background-color: #95a9c6;
+        color: #fafafa;
+        padding: 2rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        margin-bottom: 1.5rem; }
+      #blog .cards-group .__card .__title {
+        color: #2b272f;
+        font-size: 2rem; }
+      #blog .cards-group .__card .__info {
+        color: #837d87;
+        padding: 1rem; }
+
 /*# sourceMappingURL=main.css.map */

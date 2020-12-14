@@ -1,1 +1,47 @@
- 
+#work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+  background-color: $dark-violet;
+
+  .text {
+    text-align: center;
+    // main title
+    .title {
+      font-size: 3rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: $very-light-gray;
+      margin-top: 5rem;
+    }
+    //  subtitle
+    .subtitle {
+      font-size: 1.2rem;
+      color: $very-light-gray;
+      padding: 1rem 2rem 3rem;
+      line-height: 1.6;
+    }
+  }
+
+  // btn
+  .btn {
+    margin-bottom: 6rem;
+    padding: 0.8rem;
+    background-color: $dark-violet;
+    color: $very-light-gray;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    outline-style: none;
+    width: 40%;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover,
+    &:active {
+      color: $dark-violet;
+      background-color: $very-light-gray;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+}

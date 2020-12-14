@@ -3,33 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./js/main.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="./style/css/main.css" />
+    <script src="./js/main.js" defer></script>
     <title>Document</title>
   </head>
   <body>
     <!-- header -->
-    <header></header>
+    <header class="header">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="logo" />
+      </div>
+      <div class="btn-menu">
+        <img src="./images/icon-hamburger.svg" alt="" />
+      </div>
+    </header>
 
     <!-- Sections -->
-    <!--     View plans .   We’re different Snappy Process Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms. Affordable Prices We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible. People First Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it. Find out more about how we work How we work Our company How we work Why Insure? View plans Reviews Help me FAQ Terms of use Privacy policy Cookies Contact Sales Support Live chat Others Careers Press Licenses
-Challenge by Frontend Mentor. Coded by Your Name Here.  -->
+    <!--    How we work Blog Account View plans  
+              Our company How we work Why Insure? View plans Reviews Help me FAQ Terms of use Privacy policy Cookies Contact Sales Support Live chat Others Careers Press Licenses
+Challenge by Frontend Mentor. Coded by Your Name Here. .  -->
     <main>
+      <!-- work section -->
       <section id="work">
         <img src="./images/image-intro-mobile.jpg" alt="img" />
-        <h1 class="title">
-          Humanizing <br />
-          your insurance
-        </h1>
-        <p class="subtitle">
-          Get your life insurance coverage easier and faster. We blend our
-          expertise and technology to help you find the plan that’s right for
-          you. Ensure you and your loved ones are protected.
-        </p>
+        <div class="text">
+          <h1 class="title">
+            Humanizing <br />
+            your insurance
+          </h1>
+          <p class="subtitle">
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+        </div>
         <button class="btn">View plans</button>
       </section>
-      <section id="blog"><h2>Learn More About Me</h2></section>
-      <section id="account"><h2>Account</h2></section>
+
+      <!-- blog section -->
+      <section id="blog">
+        <h2 class="title">We’re different</h2>
+        <!-- card groups -->
+        <ul class="cards-group">
+          <!-- card -->
+          <li class="__card">
+            <i class="fas fa-bolt fa-4x"></i>
+            <h3 class="__title">Snappy Process</h3>
+            <p class="__info">
+              Our application process can be completed in minutes, not hours.
+              Don’t get stuck filling in tedious forms.
+            </p>
+          </li>
+          <!-- card -->
+          <li class="__card">
+            <i class="fas fa-dollar-sign fa-4x"></i>
+            <h3 class="__title">Affordable Prices</h3>
+            <p class="__info">
+              We don’t want you worrying about high monthly costs. Our prices
+              may be low, but we still offer the best coverage possible.
+            </p>
+          </li>
+          <!-- card -->
+          <li class="__card">
+            <i class="fas fa-male fa-4x"></i>
+            <h3 class="__title">People First</h3>
+            <p class="__info">
+              Our plans aren’t full of conditions and clauses to prevent
+              payouts. We make sure you’re covered when you need it.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- account section -->
+      <section id="account">
+        <h2 class="title">Find out more about how we work</h2>
+        <button class="btn">How we work</button>
+      </section>
       <section id="plans"><h2>Plans</h2></section>
       <section id="contact"><h2>Available Anytime</h2></section>
     </main>

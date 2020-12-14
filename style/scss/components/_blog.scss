@@ -1,0 +1,43 @@
+#blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .title {
+    font-size: 2.8rem;
+    color: $very-dark-violet;
+    margin-bottom: 2rem;
+  }
+  // cards
+  .cards-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    // card
+    .__card {
+      text-align: center;
+      padding: 1.5rem;
+      i {
+        background-color: $grayish-blue;
+        color: $very-light-gray;
+        padding: 2rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+      }
+      // card title
+      .__title {
+        color: $very-dark-violet;
+        font-size: 2rem;
+      }
+      // card info
+      .__info {
+        color: $dark-grayish-violet;
+        padding: 1rem;
+      }
+    }
+  }
+}
