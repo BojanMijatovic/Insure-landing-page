@@ -81,4 +81,30 @@ html {
         color: #837d87;
         padding: 1rem; }
 
+#account {
+  background-color: #2d2640;
+  color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem; }
+  #account .title {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1.5rem 5.5rem; }
+  #account .btn {
+    padding: 0.8rem;
+    background-color: #2d2640;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    outline-style: none;
+    font-weight: 700;
+    margin: 1rem 0;
+    cursor: pointer; }
+    #account .btn:hover, #account .btn:active {
+      color: #2d2640;
+      background-color: #fafafa;
+      transition: all 0.2s ease-in-out; }
+
 /*# sourceMappingURL=main.css.map */
