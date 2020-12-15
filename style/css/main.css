@@ -16,14 +16,31 @@ html {
     align-items: center; }
     #work .text {
       text-align: left;
-      margin-left: 2.5rem; }
+      margin: 4.5rem; }
       #work .text .title {
         margin: 1rem 0 1.5rem; }
       #work .text .subtitle {
         padding: 1rem 3rem 1.5rem 0; }
       #work .text .btn {
         margin-top: 2rem;
-        width: 25%; } }
+        width: 25%; }
+
+  #blog .cards-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+
+  #insure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; } }
 .header {
   display: flex;
   justify-content: space-between;
@@ -174,13 +191,30 @@ html {
     align-items: center; }
     #work .text {
       text-align: left;
-      margin-left: 2.5rem; }
+      margin: 4.5rem; }
       #work .text .title {
         margin: 1rem 0 1.5rem; }
       #work .text .subtitle {
         padding: 1rem 3rem 1.5rem 0; }
       #work .text .btn {
         margin-top: 2rem;
-        width: 25%; } }
+        width: 25%; }
+
+  #blog .cards-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+
+  #insure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; } }
 
 /*# sourceMappingURL=main.css.map */

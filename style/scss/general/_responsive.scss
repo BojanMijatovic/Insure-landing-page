@@ -8,7 +8,7 @@
 
     .text {
       text-align: left;
-      margin-left: 2.5rem;
+      margin: 4.5rem;
       .title {
         margin: 1rem 0 1.5rem;
       }
@@ -20,5 +20,29 @@
         width: 25%;
       }
     }
+  }
+  //  blog section
+  #blog {
+    .cards-group {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  // insure section
+  #insure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  //  footer
+  .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
 }
