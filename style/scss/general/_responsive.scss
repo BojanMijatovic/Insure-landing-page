@@ -1,4 +1,17 @@
 @include media-lg {
+  // header
+  .header {
+    // menu
+    .menu {
+      display: block;
+    }
+
+    // btn menu
+    .btn-menu {
+      display: none;
+    }
+  }
+
   //  work section
   #work {
     display: flex;
@@ -21,6 +34,7 @@
       }
     }
   }
+
   //  blog section
   #blog {
     .cards-group {

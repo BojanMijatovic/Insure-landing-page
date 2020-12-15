@@ -4,9 +4,32 @@
   align-items: center;
   margin: 1.2rem;
 
+  //  btn menu
   .btn-menu {
     img {
       cursor: pointer;
+    }
+  }
+
+  // menu
+  .menu {
+    display: none;
+    .__items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+
+      .__item {
+        margin: 0.5rem;
+        align-items: center;
+        a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: $dark-violet;
+          font-size: 1.3rem;
+        }
+      }
     }
   }
 }
