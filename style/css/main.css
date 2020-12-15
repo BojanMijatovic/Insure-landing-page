@@ -98,7 +98,8 @@ html {
       outline-style: none;
       width: 40%;
       font-weight: 700;
-      cursor: pointer; }
+      cursor: pointer;
+      border: none; }
       #work .text .btn:hover, #work .text .btn:active {
         color: #2d2640;
         background-color: #fafafa;
@@ -158,6 +159,7 @@ html {
     outline-style: none;
     font-weight: 700;
     margin: 1rem 0;
+    border: none;
     cursor: pointer; }
     #account .btn:hover, #account .btn:active {
       color: #2d2640;
