@@ -137,7 +137,8 @@ html {
         font-size: 2rem; }
       #blog .cards-group .__card .__info {
         color: #837d87;
-        padding: 1rem; }
+        padding: 1rem;
+        font-size: 1.4rem; }
 
 #account {
   background-color: #2d2640;
@@ -205,6 +206,7 @@ html {
     .footer .list .subtitle {
       color: #2d2640;
       padding: 0.5rem;
+      font-size: 1.4rem;
       cursor: pointer; }
 
 @media screen and (min-width: 1044px) {
